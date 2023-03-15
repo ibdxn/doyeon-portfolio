@@ -3,46 +3,37 @@ import { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div>
-      <div className="fixed top-0 left-0 right-0  h-3 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-200  "></div>
-      <div className="  mx-auto max-sm:w-4/5 max-xl:w-2/3 xl:w-1/3 selection:bg-teal-300 ">
+      <div className="fixed top-0 left-0 right-0  h-2 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-200  "></div>
+      <div className="  mx-auto max-sm:w-4/5 sm:w-2/3 xl:w-2/4  2xl:w-1/3 selection:bg-teal-300  ">
         <div className="">
-          <h1 className=" lg:text-[85px] font-bold flex mt-20 max-sm:text-3xl max-sm:mt-10  sm:text-6xl ">
-            안녕하세요.<br></br>
-            저는 이도연입니다.
+          <h1 className=" lg:text-[80px] font-bold flex mt-14 max-sm:text-3xl max-sm:mt-10  sm:text-6xl flex-col   ">
+            <p className="flex">
+              안녕하세요<span className="text-teal-500">.</span>
+            </p>
+            <p className="break-keep ">
+              저는 이도연입니다<span className="text-teal-500">.</span>
+            </p>
           </h1>
         </div>
 
-        <ul className="flex flex-col mt-40 text-xl space-y-12 max-sm:mt-12 max-sm:text-base max-sm:space-y-10 list-disc marker:text-teal-500 break-keep sm:space-y-7 sm:mt-20 ">
-          <li>
-            메인 언어 <b className="text-teal-500">Typescript</b> 로 프론트엔드
-            개발에 관심을 가지고 있는
-            <b className=""> 주니어 개발자</b>
-          </li>
-          <li>
-            <b className="">팀 협업</b>으로 함께 아름답고 의미 있는 프로젝트를
-            완성해 보고 싶은
-            <b className="text-teal-500"> 협조적인 개발자</b>
-          </li>
-
-          <li>
-            <b className="">세심하고 꼼꼼</b>한 성격으로 자그마한 기능과 버그도
-            지나치지 않는
-            <b className="text-teal-500"> 섬세한 개발자</b>
-          </li>
-
-          <li>
-            코드는 최대한 <b className="text-teal-500">짧고 간결함을</b>{" "}
-            추구하는 <b className=""> 심플 추구 개발자</b>
-          </li>
-        </ul>
+        <p className=" break-keep sm:text-3xl sm:mt-14 max-sm:mt-10 max-sm:text-xl">
+          서울에서 웹 프론트엔드 엔지니어를 꿈꾸고 있으며{" "}
+          <br className="max-sm:hidden max-xl:hidden"></br>사용자에게 가까이
+          맞닿아 있는 아름다운 인터페이스를{" "}
+          <br className="max-sm:hidden xl:hidden "></br>
+          좋아합니다. 디테일을 중요하게 생각합니다. 다양한 가치를 지닌 동료와
+          함께 뜻을 가지고 업무를 하는 것을 희망합니다.
+        </p>
 
         <div className="mt-24 mb-28 max-sm:mt-16 sm:mt-18">
-          <span className="font-bold text-5xl max-sm:text-5xl ">
-            Project Experience.
-          </span>
+          <h1 className="text-5xl font-boldmax-sm:text-5xl ">
+            <p className="">
+              Project Experience<span className="text-teal-500">.</span>
+            </p>
+          </h1>
           <div className="flex mt-20 max-sm:flex-col sm:flex-col lg:flex-row max-sm:mt-14 border-b-2 pb-16">
             <div className="flex flex-col max-md:w-4/5 w-1/3">
-              <span className="text-3xl font-bold max-sm:text-3xl sm:mb-5   ">
+              <span className="text-3xl font-bold max-sm:text-3xl sm:mb-5  break-keep  ">
                 캐럿-마켓<br className=" max-md:hidden"></br> 프로젝트
               </span>
               <span className="max-sm:text-sm max-sm:mt-2 sm:mb-5">
@@ -87,7 +78,7 @@ const Home: NextPage = () => {
                 </li>
               </ul>
               <h2 className="mt-7 text-2xl font-bold max-sm:text-xl sm:mb-5">
-                What did I learn
+                What did I learn.
               </h2>
               <ul className="list-disc marker:text-teal-500">
                 <li className="text-lg max-sm:text-base break-keep ">
@@ -119,7 +110,7 @@ const Home: NextPage = () => {
 
           <div className="flex mt-20 max-sm:flex-col sm:flex-col lg:flex-row max-sm:mt-14 border-b-2 pb-16 ">
             <div className="flex flex-col max-md:w-4/5 w-1/3">
-              <span className="text-3xl font-bold max-sm:text-3xl sm:mb-5   ">
+              <span className="text-3xl font-bold max-sm:text-3xl sm:mb-5 break-keep   ">
                 코인 트래커
               </span>
 
@@ -159,7 +150,7 @@ const Home: NextPage = () => {
                 </li>
               </ul>
               <h2 className="mt-7 text-2xl font-bold max-sm:text-xl sm:mb-5">
-                What did I learn
+                What did I learn.
               </h2>
               <ul className="list-disc marker:text-teal-500">
                 <li className="text-lg max-sm:text-base break-keep">
@@ -233,7 +224,7 @@ const Home: NextPage = () => {
                 </li>
               </ul>
               <h2 className="mt-7 text-2xl font-bold max-sm:text-xl sm:mb-5">
-                What did I learn
+                What did I learn.
               </h2>
               <ul className="list-disc marker:text-teal-500">
                 <li className="text-lg max-sm:text-base break-keep ">
@@ -263,10 +254,11 @@ const Home: NextPage = () => {
 
           <div className="mt-24 max-sm:mt-16 ">
             <span className="font-bold text-5xl max-sm:text-5xl ">
-              Skill Set.
+              <p className="">
+                Skill Set<span className="text-teal-500">.</span>
+              </p>
             </span>
             <div className="">
-              {" "}
               <div className="flex mt-16 max-sm:mt-14  border-b-2 pb-10 ">
                 <div className="flex flex-col w-1/4 mr-10 max-sm:w-1/2 sm:w-1/2 lg:w-1/3 ">
                   <span className="text-3xl font-bold max-sm:text-3xl   ">
@@ -340,7 +332,7 @@ const Home: NextPage = () => {
               <div className="flex mt-14 max-sm:mt-14 border-dashed border-b-2 pb-10 ">
                 <div className="flex flex-col w-1/4 mr-10 max-sm:w-1/2 sm:w-1/2 lg:w-1/3 ">
                   <span className="text-3xl font-bold max-sm:text-3xl">
-                    etc.
+                    Etc.
                   </span>
                 </div>
                 <div>
@@ -358,7 +350,9 @@ const Home: NextPage = () => {
             <div className="mb-20">
               {" "}
               <span className="font-bold text-5xl max-sm:text-5xl ">
-                Other Experiences.
+                <p className="">
+                  Other Experiences<span className="text-teal-500">.</span>
+                </p>
               </span>
             </div>
 
@@ -385,7 +379,9 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-col max-sm:w-4/5">
             <span className="mt-20 font-bold text-5xl max-sm:text-5xl ">
-              License.
+              <p className="flex">
+                License<span className="text-teal-500">.</span>
+              </p>
             </span>
 
             <span className="mt-10 mb-5 text-3xl font-bold max-sm:text-3xl  ">
