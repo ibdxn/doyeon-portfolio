@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <title>Resume | 이도연</title>
       </Head>
       <div className="fixed top-0 left-0 right-0  h-2 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-200  "></div>
-      <div className="  mx-auto max-sm:w-4/5 sm:w-2/3 xl:w-2/4  2xl:w-[45rem] selection:bg-teal-300  ">
+      <div className="  mx-auto tracking-tighter max-sm:w-4/5 sm:w-2/3 xl:w-2/4  2xl:w-[45rem] selection:bg-teal-300  ">
         <div className="">
           <h1 className=" lg:text-[80px] font-bold flex mt-14 max-sm:text-3xl max-sm:mt-10  sm:text-6xl flex-col   ">
             <p className="flex">
@@ -21,8 +21,7 @@ const Home: NextPage = () => {
         </div>
 
         <p className="leading-normal break-keep mt-16 text-[32px] max-sm:mt-10 max-sm:text-[20px]  ">
-          서울에서 웹 프론트엔드 엔지니어를 꿈꾸고 있으며{" "}
-          <br className="max-sm:hidden max-xl:hidden"></br>사용자에게 가까이
+          서울에서 웹 프론트엔드 엔지니어를 꿈꾸고 있으며 사용자에게 가까이
           맞닿아 있는 아름다운 인터페이스를 좋아합니다. 디테일을 중요하게
           생각합니다. 다양한 가치를 지닌 동료와 함께 뜻을 가지고 업무를 하는
           것을 희망합니다.
@@ -37,7 +36,7 @@ const Home: NextPage = () => {
           <div className="flex mt-20 max-sm:flex-col sm:flex-col lg:flex-row max-sm:mt-14 border-b-2 pb-16">
             <div className="flex flex-col max-md:w-4/5 w-1/3">
               <span className="text-3xl font-bold max-sm:text-3xl sm:mb-5  break-keep  ">
-                캐럿-마켓<br className=" max-md:hidden"></br> 프로젝트
+                캐럿-마켓<br className=" max-md:hidden"></br> 프로젝트.
               </span>
               <span className="max-sm:text-sm max-sm:mt-2 sm:mb-5">
                 2022. 12 - 2023. 02<br></br>(3개월)
@@ -114,7 +113,7 @@ const Home: NextPage = () => {
           <div className="flex mt-20 max-sm:flex-col sm:flex-col lg:flex-row max-sm:mt-14 border-b-2 pb-16 ">
             <div className="flex flex-col max-md:w-4/5 w-1/3">
               <span className="text-3xl font-bold max-sm:text-3xl sm:mb-5 break-keep   ">
-                코인 트래커
+                코인 트래커.
               </span>
 
               <span className="max-sm:text-sm max-sm:mt-2 sm:mb-5">
@@ -185,7 +184,7 @@ const Home: NextPage = () => {
           <div className="flex mt-20 max-sm:flex-col sm:flex-col lg:flex-row max-sm:mt-14 border-b-2 pb-16 ">
             <div className="flex flex-col max-md:w-4/5 w-1/3">
               <span className="text-3xl font-bold max-sm:text-3xl sm:mb-5 ">
-                위튜브<br className="max-md:hidden"></br> 프로젝트
+                위튜브<br className="max-md:hidden"></br> 프로젝트.
               </span>
 
               <span className="max-sm:text-sm max-sm:mt-2 sm:mb-5">
@@ -363,7 +362,7 @@ const Home: NextPage = () => {
               <span className="mb-8 text-3xl font-bold max-sm:text-3xl break-keep ">
                 한국폴리텍대학 대전캠퍼스.
               </span>
-              <span className="mb-5 max-sm:text-sm max-sm:mt-2">
+              <span className="max-sm:text-sm max-sm:mt-2">
                 2019.03 - 2019. 11
               </span>
               <span className="text-lg">
@@ -374,7 +373,7 @@ const Home: NextPage = () => {
               <span className="mt-10 mb-8 text-3xl font-bold max-sm:text-3xl  ">
                 금오공과대학교.
               </span>
-              <span className="mb-5 max-sm:text-sm max-sm:mt-2">
+              <span className="max-sm:text-sm max-sm:mt-2">
                 2013.03 - 2018. 08
               </span>
               <span className="text-lg">경영학과 졸업</span>
@@ -387,7 +386,7 @@ const Home: NextPage = () => {
               </p>
             </span>
 
-            <span className="mt-10 mb-5 text-3xl font-bold max-sm:text-3xl  ">
+            <span className="mt-10 text-3xl font-bold max-sm:text-3xl  ">
               정보처리산업기사.
             </span>
             <span>2019. 08. 16 취득</span>
