@@ -10,8 +10,8 @@ const Home: NextPage = () => {
       <div className="fixed top-0 left-0 right-0  h-2 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-200  "></div>
       <div className="  mx-auto tracking-tighter max-sm:w-4/5 sm:w-2/3 xl:w-2/4  2xl:w-[45rem] selection:bg-teal-300  ">
         <div className="">
-          <h1 className=" lg:text-[80px] font-bold flex mt-14 max-sm:text-3xl max-sm:mt-10  sm:text-6xl flex-col   ">
-            <p className="flex">
+          <h1 className="text-3xl mt-10 font-bold sm:text-[55px] sm:mt-20 lg:text-[80px]">
+            <p className="flex sm:mb-7 lg:mb-14">
               안녕하세요<span className="text-teal-500">.</span>
             </p>
             <p className="break-keep ">
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           </h1>
         </div>
 
-        <p className="leading-normal break-keep mt-16 text-[32px] max-sm:mt-10 max-sm:text-[20px]  ">
+        <p className="leading-normal break-keep mt-20 text-[32px] max-sm:mt-10 max-sm:text-[20px]  ">
           서울에서 웹 프론트엔드 엔지니어를 꿈꾸고 있으며 사용자에게 가까이
           맞닿아 있는 아름다운 인터페이스를 좋아합니다. 디테일을 중요하게
           생각합니다. 다양한 가치를 지닌 동료와 함께 뜻을 가지고 업무를 하는
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className="mt-24 mb-28 max-sm:mt-16 sm:mt-18">
-          <h1 className="text-5xl font-boldmax-sm:text-5xl ">
+          <h1 className="text-5xl font-bold max-sm:text-5xl ">
             <p className="">
               Project Experience<span className="text-teal-500">.</span>
             </p>
