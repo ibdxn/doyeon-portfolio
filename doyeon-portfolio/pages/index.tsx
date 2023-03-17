@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <div className="fixed top-0 left-0 right-0  h-2 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-200  "></div>
       <div className="  mx-auto tracking-tighter max-sm:w-4/5 sm:w-2/3 xl:w-2/4  2xl:w-[45rem] selection:bg-teal-300  ">
         <div className="">
-          <h1 className="text-3xl mt-10 font-bold sm:text-[55px] sm:mt-20 lg:text-[80px]">
+          <h1 className="text-3xl mt-10 font-bold sm:text-[55px] sm:mt-20 lg:text-[80px] lg:mt-24">
             <p className="flex sm:mb-7 lg:mb-14">
               안녕하세요<span className="text-teal-500">.</span>
             </p>
