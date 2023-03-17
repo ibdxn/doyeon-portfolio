@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const debug = process.env.NODE_ENV !== "production";
-const repository = "doyeon-portfolio";
+const repository = "resume";
 
 
 const nextConfig = {
