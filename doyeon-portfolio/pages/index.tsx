@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Resume | 이도연</title>
+        <title>이력서 | 이도연</title>
       </Head>
       <div className="fixed top-0 left-0 right-0  h-2 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-200  "></div>
       <div className="  mx-auto tracking-tighter max-sm:w-4/5 sm:w-2/3 xl:w-2/4  2xl:w-[45rem] selection:bg-teal-300  ">
