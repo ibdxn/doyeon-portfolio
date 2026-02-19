@@ -169,13 +169,13 @@ const Home: NextPage = () => {
               <ul className="list-disc marker:text-teal-500">
                 <li className="text-lg max-sm:text-base">
                   서비스 링크 :
-                  <a
+               //   <a
                     className="hover:text-teal-500"
                     href="https://ibdxn.github.io/react-masterclass"
                   >
                     {" "}
                     https://ibdxn.github.io/react-masterclass
-                  </a>
+                  </a> //
                 </li>
               </ul>
             </div>
