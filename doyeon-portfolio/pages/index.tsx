@@ -362,7 +362,7 @@ const Home: NextPage = () => {
             </div>
             <div className="flex flex-col max-sm:w-4/5 border-b-2 border-dashed pb-10">
               <span className="mt-10 mb-8 text-3xl font-bold max-sm:text-3xl  ">
-                금오공과대학교.
+                금오공과대학교...
               </span>
               <span className="max-sm:text-sm max-sm:mt-2">
                 2013.03 - 2018. 08
