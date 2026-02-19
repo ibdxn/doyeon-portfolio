@@ -359,15 +359,6 @@ const Home: NextPage = () => {
             </div>
 
             <div className="flex flex-col max-sm:w-4/5 border-b-2 pb-10">
-              <span className="mb-8 text-3xl font-bold max-sm:text-3xl break-keep ">
-                한국폴리텍대학 대전캠퍼스.
-              </span>
-              <span className="max-sm:text-sm max-sm:mt-2">
-                2019.03 - 2019. 11
-              </span>
-              <span className="text-lg">
-                하이테크과정 스마트소프트웨어과 수료
-              </span>
             </div>
             <div className="flex flex-col max-sm:w-4/5 border-b-2 border-dashed pb-10">
               <span className="mt-10 mb-8 text-3xl font-bold max-sm:text-3xl  ">
